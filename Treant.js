@@ -2001,7 +2001,7 @@
     Tree.CONFIG = {
         maxDepth: 100,
         rootOrientation: 'NORTH', // NORTH || EAST || WEST || SOUTH
-        nodeAlign: 'CENTER', // CENTER || TOP || BOTTOM
+        nodeAlign: 'BOTTOM', // CENTER || TOP || BOTTOM
         levelSeparation: 30,
         siblingSeparation: 30,
         subTeeSeparation: 30,
