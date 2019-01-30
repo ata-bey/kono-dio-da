@@ -2015,9 +2015,9 @@
         scrollbar: 'native', // "native" || "fancy" || "None" (PS: "fancy" requires jquery and perfect-scrollbar)
 
         connectors: {
-            type: 'curve', // 'curve' || 'step' || 'straight' || 'bCurve'
+            type: 'bCurve', // 'curve' || 'step' || 'straight' || 'bCurve'
             style: {
-                stroke: 'black'
+                stroke: 'white'
             },
             stackIndent: 15
         },
