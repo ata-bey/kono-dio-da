@@ -1,7 +1,7 @@
 
     var chart_config = {
         chart: {
-            container: "#itwasme-dio",
+            container: "#bloodline",
             rootOrientation: "SOUTH",
 
             animateOnInit: false,
@@ -17,19 +17,32 @@
             }
         },
         nodeStructure: {
+image: "img/logo.png",
+collapsed: true,
+HTMLclass: "logo",
+children: [ {
+            image: "img/jolyne-cameo.png",
             text: {
-                name: "Jolyne"
+                name: "Jolyne Kujo"
             },
+            HTMLclass: "jojo",
+            collapsed: true,
             children: [
                 {
+                    image: "img/jotaro-cameo.png",
                     text: {
-                        name: "Jotaro",
+                        name: "Jotaro Kujo",
                     },
+                    HTMLclass: "jojo",
+                    collapsed: true,
                     children: [
                         {
+                            image: "img/holly-cameo.png",
                             text: { 
-                                name: "Holly",
+                                name: "Holly Kujo",
                             },
+                            HTMLclass: "minor",
+                            collapsed: true,
                             children: [
                                 // {
                                 //     text: {
@@ -37,66 +50,90 @@
                                 //     }
                                 // },
                                 {
+                                    image: "img/joseph-cameo-2.png",
                                     text: {
-                                        name: "Joseph",
+                                        name: "Joseph Joestar",
                                     },
+                                    HTMLclass: "jojo",
+                                    collapsed: true,
                                     children: [
                                         {
+                                            image: "img/georgeii-cameo.png",
                                             text: { 
-                                                name: "George II",
+                                                name: "George Joestar II",
                                             },
+                                            HTMLclass: "minor",
+                                            collapsed: true,
                                             children: [
                                                 {
+                                                    image: "img/jonathan-cameo.png",
                                                     text: {
-                                                        name: "Jonathan",
+                                                        name: "Jonathan Joestar",
                                                     },
+                                                    HTMLclass: "jojo",
+                                                    collapsed: true,
                                                     children: [
                                                         {
+                                                            image: "img/george-cameo.png",
                                                             text: {
-                                                                name: "George"
-                                                            }
-                                                        },
+                                                                name: "George Joestar"
+                                                            },
+                                                            HTMLclass: "minor",
+                                                            },
                                                         {
+                                                            image: "img/mary-cameo.png",
                                                             text: {
-                                                                name: "Mary"
-                                                            }
+                                                                name: "Mary Joestar"
+                                                            },
+                                                            HTMLclass: "minor",
                                                         }
                                                     ]
                                                 },
                                                 {
+                                                    image: "img/erina-cameo.png",
                                                     text: {
-                                                        name: "Erina"
-                                                    }
+                                                        name: "Erina Pendleton"
+                                                    },
+                                                    HTMLclass: "minor",
                                                 },
                                             ]
                                         },
                                         {
+                                            image: "img/lisa-cameo.png",
                                             text: { 
-                                                name: "Lisa Lisa",
+                                                name: "Elizabeth 'Lisa Lisa' Joestar",
                                             },
+                                            HTMLclass: "minor",
                                         }
                                     ]
                                 },
                                 {
+                                    image: "img/suziq-cameo.png",
                                     text: {
-                                        name: "Suzi Q",
+                                        name: "Suzi Q Joestar",
                                     },
+                                    HTMLclass: "minor",
                                     
                                 }
                             ]
                         },
                         {
+                            image: "img/sadao-cameo.png",
                             text: { 
                                 name: "Sadao Kujo",
                             },
+                            HTMLclass: "minor",
                         },
                     ]
                 },
                 {
+                    image: "img/ms-kujo-cameo.png",
                     text: {
                         name: "Mrs. Kujo",
                     },
+                    HTMLclass: "minor",
                 }
             ]
+}]
         }
     };
