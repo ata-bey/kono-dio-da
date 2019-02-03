@@ -18,7 +18,7 @@ background-image: url(img/bg.png)
 .Treant .node.collapsed { background-color: none; }
 .Treant .node.collapsed .collapse-switch { background: none; }
 /* #bloodline {
-    display: inline-block;
+    display: block;
 }
 #itwasme-dio {
     display: none;
@@ -45,12 +45,20 @@ background-image: url(img/bg.png)
     width: 300px;
 }
 .dio:hover img { width: 350px;}
+@media screen and (max-width: 450px) {
+    .jojo{ width: 150px;}
+    .logo{width: 400px;}
+    .minor{width: 100px;}
+}
 /* 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 450px) {
     #itwasme-dio {
-        display: inline-block;
+        display: block;
     }
     #bloodline{
         display: none;
+    .logo {
+    width: 400px;
+}
     }
 } */
