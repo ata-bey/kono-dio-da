@@ -42,7 +42,7 @@ background-image: url(img/bg.png)
     width: 700px;
 }
 .dio{
-    width: 300px;
+    width: 280px;
 }
 .dio:hover img { width: 350px;}
 /* if dio isn't working */
@@ -60,7 +60,7 @@ background-image: url(img/bg.png)
     #bloodline{
         display: none;}
     .logo {
-    width: 400px;
+    width: 350px;
 }
     }
 }
